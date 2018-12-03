@@ -1,2 +1,2 @@
 # Regresi
-Regresi Linear
+Regresi Linear dan Polinomial
