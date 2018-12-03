@@ -1,0 +1,89 @@
+##Studi Kasus
+Perusahaan ini sedang merekrut seorang calon pegawai baru. Namun, bagian HRD perusahaan ini kebingungan, berapa gaji yang harus ia berikan, sesuai dengan level di mana calon pegawai baru ini masuk.
+Tentunya akan ada proses negosiasi antara HRD dengan calon pegawai baru ini tentang jumlah gaji yang pantas diterima pegawai tersebut.
+Calon pegawai ini mengaku bahwa sebelumnya ia telah berada di posisi Region Manager dengan pengalaman bekerja 20 tahun lebih dengan gaji hampir 160K dollar per tahun.
+Ia meminta perusahaan baru ini untuk memberikan ia gaji lebih dari 160K dollar per tahun. 
+Untuk menyelidiki apakah calon pegawai ini benar-benar digaji sebanyak 160K dollar/tahun,
+maka bagian HRD membandingkan data gaji perusahaan tempat calon pegawai ini bekerja sebelumnya (kebetulan perusahaan memiliki daftar gajinya) dengan pengakuannya.
+
+```
+Gaji
+```
+
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
+
+
+Data yang dimiliki adalah daftar antara gaji dan level di perusahaan tersebut. Bagian HRD ingin mencari hubungan antara gaji yang didapat dengan level (tingkatan jabatan) di perusahaan calon pekerja tadi bekerja sebelumnya.
+
+Hasil penelitian awal, calon pegawai ini layak masuk di level 6.5 (antara region manager dan partner).
+
+Berikut variabel yang kita miliki:
+
+Variabel dependen : Gaji (dalam dollar per tahun)
+Variabel independen : level (tingkatan jabatan)
+
